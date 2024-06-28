@@ -1,0 +1,35 @@
+/*Do not use !important
+h1 {
+  color: dodgerblue !important;
+}
+  */
+
+h1 {
+  color: dodgerblue ;
+}
+
+.highlight {
+  color: deeppink;
+}
+
+
+/*The IDs are the most specific*/
+#title {
+  color: yellow;
+}
+
+
+/*The most specific*/
+.highlight#title {
+  color: dodgerblue;
+}
+
+/*h1 with the id of products*/
+/*More specific that just the name of id*/
+h1#title {
+  color: dodgerblue;
+}
+
+.featured #title {
+  color: yellow;
+}

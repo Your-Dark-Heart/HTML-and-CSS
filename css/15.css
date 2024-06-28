@@ -1,0 +1,37 @@
+
+
+p::first-letter {
+  font-size: 140%;
+  font-weight: bold;
+}
+
+p::first-line {
+  font-style: italic;
+}
+
+
+
+/*You can set the elements*/
+h1::selection {
+  background-color: yellow;
+}
+
+
+/*This is for all elements*/
+::selection {
+  color: blue;
+}
+
+p::before {
+  content: "...";
+  display: block;
+  color: blue;
+  font-size: 2em;
+}
+
+p::after {
+  content: "...";
+  display: block;
+  color: blue;
+  font-size: 2em;
+}
