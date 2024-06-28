@@ -1,0 +1,14 @@
+.box {
+  width: 300px;
+  height: 300px;
+  background: dodgerblue;
+  border: 10px dotted royalblue;
+  border-top: 10px dotted royalblue;
+  border-right: 10px dotted yellow;
+  border-left: 10px dotted white;
+  border-bottom: 10px dotted yellow;
+  background: radial-gradient( circle, yellow 1%, dodgerblue 50%);
+  /*border-width: 5px 10px 15px 20px;*/
+  /*border-width: 5px 10px 15px;*/ /*Automatically browser takes right value as the left one*/
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
