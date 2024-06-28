@@ -1,0 +1,50 @@
+#products {
+
+}
+
+.product {
+
+}
+
+/*
+ID is only for one element. Class if for a group of elements.
+*/
+
+
+/*We are looking for all anchor elements with target that is _blank*/
+a[target="_blank"] {
+
+}
+
+a[href="https://google.com"] {
+  color: orange;
+}
+
+/*We can check if an attribute HAS some value and select the element*/
+
+a[href*="google"] {
+  color: blue;
+}
+
+/*
+We can check if all attributes start with some value and select that element.
+*/
+
+a[href^="https"] {
+  color: chocolate;
+}
+
+/*
+We can check if all attributes ends with some value and select that element.
+*/
+
+
+a[href$="com"] {
+  color: rgb(33, 21, 11);
+}
+
+
+/*We can combine*/
+a[href^="https"][href$=".com"] {
+  color: chartreuse;
+}

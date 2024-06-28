@@ -1,0 +1,13 @@
+body {
+  margin: 10px;
+}
+
+
+p {
+  color: orange;
+}
+
+#first {
+  color: blue;
+  font-weight: bold;
+}

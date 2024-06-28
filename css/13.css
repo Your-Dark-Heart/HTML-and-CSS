@@ -1,0 +1,24 @@
+
+
+/*All paragraphs inside products id*/
+#products p {
+  color: orange;
+}
+
+
+/*Direct childern, NOT GRANDCHILDREN, of products id*/
+#products > p {
+  color: blueviolet;
+}
+
+
+/*THE ONLY DIRECT PARAGRAPH SIBLING OF PRODUCTS ID. The paragraph has to come after the products ID. NOT BEFORE! This is the sibling. Not the one after this paragraph.*/
+#products + p {
+  color: blue;
+}
+
+/* Targets all <p> elements that are siblings of an element with the ID "products" and appear AFTER it*/
+
+#products ~ p {
+  color: coral;
+}
